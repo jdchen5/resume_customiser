@@ -1,0 +1,5 @@
+{
+  "api_url": "https://api.apilayer.com/resume_parser/upload",
+  "resume_dir": "data/resumes/",
+  "output_dir": "output/customised_cvs/"
+}
