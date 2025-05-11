@@ -3,5 +3,15 @@ __pycache__/
 .env
 *.pdf
 *.docx
-output/
-data/
+
+# Ignore everything in these folders
+output/*
+data/*
+
+# But keep .gitkeep files
+!output/.gitkeep
+!data/.gitkeep
+!data/resumes/.gitkeep
+!data/job_descriptions/.gitkeep
+!output/customised_cvs/.gitkeep
+
